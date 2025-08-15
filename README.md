@@ -22,6 +22,36 @@
 ## migrate
     python manage.py migrate
 
+## Create a superuser
+    python manage.py createsuperuser --username beth --email admin@example.com
+
+## Create a views.py
+    tutorial/quickstart/views.py
+
+## Create URLS.py
+    tutorial/urls.py
+
+## Configure the settings.py
+    REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
+}
+         INSTALLED_APPS = [
+            ...
+            'rest_framework',
+         ]
+
+# Testing our API
+    python manage.py runserver
+    
+ 
+ 
+    
+
+
+
+
+
 
    
 
