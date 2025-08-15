@@ -4,8 +4,8 @@
 # Project Setup
 
 ## Create the project directory
-    mkdir
-    cd
+    mkdir tutorial
+    cd tutorial
 
 ## Create a virtual environment to isolate our package dependencies locally
     python3 -m venv env
@@ -43,6 +43,10 @@
 
 # Testing our API
     python manage.py runserver
+    
+    
+# Creating  the models of our ecommerce
+   tutorial/quickstart/views.py
     
  
  
